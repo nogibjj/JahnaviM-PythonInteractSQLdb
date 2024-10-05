@@ -1,5 +1,12 @@
 '''Extracts a dataset'''
+import requests
 
-def extr():
-    '''extracts some data'''
-    pass
+URL = 'https://github.com/fivethirtyeight/data/blob/master/bad-drivers/bad-drivers.csv'
+FILE_PATH = 'data/bad-drivers.csv'
+
+def extract(url = URL, path = FILE_PATH):
+    '''Extracts a dataset based on URL and saves it to the path'''
+    with requests.get(url) as r:
+        with open(path, 'wb') as f:
+            f.write(r.content)
+    return path

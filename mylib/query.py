@@ -1,5 +1,5 @@
 '''Functions to read dataset'''
 
-def read():
+def query():
     '''Reads some dataset'''
     pass
