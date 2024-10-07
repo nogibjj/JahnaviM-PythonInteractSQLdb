@@ -1,6 +1,8 @@
 '''This script is to test the etl.py script'''
 
 from mylib.query import create_record, read_db, update_ca, delete_ca
+from mylib.extract import extract
+from mylib.transform_load import trans_load
 
 # Test CRUD
 def test_create_record():
@@ -22,4 +24,3 @@ def test_delete_ca():
     '''tests if delete_ca function works as expected'''
     output = delete_ca()
     assert len(output) == 5
-    
