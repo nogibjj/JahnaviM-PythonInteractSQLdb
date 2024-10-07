@@ -1,7 +1,7 @@
 '''Extracts a dataset'''
 import requests
 
-URL = 'https://github.com/fivethirtyeight/data/blob/master/bad-drivers/bad-drivers.csv'
+URL = 'https://raw.githubusercontent.com/fivethirtyeight/data/refs/heads/master/bad-drivers/bad-drivers.csv'
 FILE_PATH = 'data/bad-drivers.csv'
 
 def extract(url = URL, path = FILE_PATH):
