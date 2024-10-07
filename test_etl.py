@@ -7,6 +7,8 @@ from mylib.transform_load import trans_load
 # Test CRUD
 def test_create_record():
     '''tests if create_record function works as expected'''
+    extract()
+    trans_load()
     output = create_record()
     assert len(output) == 1
 
