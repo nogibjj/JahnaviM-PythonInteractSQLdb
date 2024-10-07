@@ -5,3 +5,5 @@ pylint
 
 sqlite
 requests
+csv
+os
