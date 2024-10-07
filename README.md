@@ -1,7 +1,5 @@
 # Jahnavi Maddhuri: Python Script interacting with SQL Database
-This project was originally started for the course, IDS 702: Data Engineering.
-The purpose of this project is to provide analysis on a dataset using pandas and Jupyter notebooks in a python project template with a strong build system.
-This creates a base feedback loop every time I update my project.
+This project demonstrates the use of Python to interact with a SQL database through SQLite, leveraging the [bad-drivers.csv](https://github.com/fivethirtyeight/data/blob/master/bad-drivers/bad-drivers.csv) dataset. It implements an Extract, Transform, Load (ETL) pipeline along with key Create, Read, Update, Delete (CRUD) SQL commands. The project is designed with a robust build system that ensures continuous feedback and updates as the code evolves.
 
 ## CI/CD Badge
 [![CI](https://github.com/nogibjj/JahnaviM-MiniProject2/actions/workflows/ex.yml/badge.svg)](https://github.com/nogibjj/JahnaviM-MiniProject2/actions/workflows/ex.yml)
