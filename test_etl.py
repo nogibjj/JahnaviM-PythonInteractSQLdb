@@ -22,3 +22,4 @@ def test_delete_ca():
     '''tests if delete_ca function works as expected'''
     output = delete_ca()
     assert len(output) == 5
+    
